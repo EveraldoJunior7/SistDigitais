@@ -1,0 +1,194 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/simulation/modelsim
+vControladorEndereco
+Z1 !s110 1732734637
+!i10b 1
+!s100 _3Af`_AQOnaz>iMK]1N@51
+IkI>zKeYWD@@FlmNEiY@Lm2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1732733801
+8C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/ControladorEndereco.v
+FC:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/ControladorEndereco.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1732734637.000000
+!s107 C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/ControladorEndereco.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho|C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/ControladorEndereco.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho
+Z7 tCvgOpt 0
+n@controlador@endereco
+vDEMUX8x1
+R1
+!i10b 1
+!s100 P[o?l;Hc67fbf`X[]JaGo1
+IC`i4Da;nef]T0?U6h0P<Z3
+R2
+R0
+w1732732832
+8C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/DEMUX8x1.v
+FC:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/DEMUX8x1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/DEMUX8x1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho|C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/DEMUX8x1.v|
+!i113 1
+R5
+R6
+R7
+n@d@e@m@u@x8x1
+vGeradorParidade
+R1
+!i10b 1
+!s100 zmNU6j3_OHZWRkWT6^mc@2
+Im2hnXJfe;SaV0FDklU3me0
+R2
+R0
+w1732731374
+8C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/GeradorParidade.v
+FC:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/GeradorParidade.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/GeradorParidade.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho|C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/GeradorParidade.v|
+!i113 1
+R5
+R6
+R7
+n@gerador@paridade
+vMUX8x1
+R1
+!i10b 1
+!s100 X@[^JEIKQ^0oB^FKPDPNK3
+I:F]8l2WbKKUl[2YBN8HXC3
+R2
+R0
+w1732310800
+8C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/MUX8x1.v
+FC:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/MUX8x1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/MUX8x1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho|C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/MUX8x1.v|
+!i113 1
+R5
+R6
+R7
+n@m@u@x8x1
+vSistemaSensores
+R1
+!i10b 1
+!s100 m>]RE0?d0Oi6N57[>Jm<^2
+IRk8070:hiam51QOIBEYKA3
+R2
+R0
+w1732732853
+8C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/SistemaSensores.v
+FC:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/SistemaSensores.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/SistemaSensores.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho|C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/SistemaSensores.v|
+!i113 1
+R5
+R6
+R7
+n@sistema@sensores
+vSistemaSensoresTB
+R1
+!i10b 1
+!s100 I>^>?0_c6FK<hze`hdc:G3
+II]=McVfYJ2mjdl[5nFe@A3
+R2
+R0
+w1732734534
+8C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/SistemaSensoresTB.v
+FC:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/SistemaSensoresTB.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/SistemaSensoresTB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho|C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/SistemaSensoresTB.v|
+!i113 1
+R5
+R6
+R7
+n@sistema@sensores@t@b
+vTransmissorPacote
+R1
+!i10b 1
+!s100 zmiZ`PH=V:O<SAPo7hmT60
+I<RIQ09N2azbO[o8U0JF3Y0
+R2
+R0
+w1732309781
+8C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/TransmissorPacote.v
+FC:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/TransmissorPacote.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/TransmissorPacote.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho|C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/TransmissorPacote.v|
+!i113 1
+R5
+R6
+R7
+n@transmissor@pacote
+vVerificadorParidade
+R1
+!i10b 1
+!s100 ;G8DJXk;m_1J6bcc5`C<o0
+IkMTATQTa6?flnC>[5KkiH1
+R2
+R0
+w1732309859
+8C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/VerificadorParidade.v
+FC:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/VerificadorParidade.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/VerificadorParidade.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho|C:/Users/junio/Documents/IFF/7Periodo/SistemasDigitais/Trabalho/VerificadorParidade.v|
+!i113 1
+R5
+R6
+R7
+n@verificador@paridade

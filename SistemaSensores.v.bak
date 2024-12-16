@@ -1,0 +1,24 @@
+module SistemaSensores (
+    input clk,
+    input [7:0] dados_sensores [0:7],
+    output [10:0] pacote,
+    output reg solicitar_reenvio
+);
+
+    wire [2:0] endereco;
+    wire [7:0] dados_selecionados;
+    wire bit_erro;
+
+    ControladorEndereco ctrl (clk, endereco);
+
+    MUX8x1 mux (dados_sensores, endereco, dados_selecionados);
+
+    TransmissorPacote transmissor (dados_selecionados, endereco, pacote);
+
+    VerificadorParidade verificador (pacote[7:0], pacote[10], bit_erro);
+
+    always @(posedge clk) begin
+        solicitar_reenvio <= bit_erro;
+    end
+
+endmodule

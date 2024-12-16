@@ -1,0 +1,11 @@
+module MUX8x1 (
+    input [7:0] dados_sensores [0:7],
+    input [2:0] endereco,
+    output reg [7:0] dados_selecionados
+);
+
+    always @(*) begin
+        dados_selecionados = dados_sensores[endereco];
+    end
+
+endmodule

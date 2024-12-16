@@ -1,0 +1,10 @@
+module ControladorEndereco (
+    input clk,
+    output reg [2:0] endereco
+);
+
+    always @(posedge clk) begin
+        endereco <= endereco + 1;
+    end
+
+endmodule

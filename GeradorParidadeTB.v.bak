@@ -1,0 +1,22 @@
+`timescale 1ps / 1ps
+
+module GeradorParidadeTB;
+
+    reg [7:0] dados;
+    wire paridade;
+
+    GeradorParidade uut (
+        dados, paridade
+    );
+
+   initial begin
+      dados = 8'b00000000; #100;
+      dados = 8'b00000001; #100;
+      dados = 8'b10101010; #100;
+      dados = 8'b11111111; #100;
+      dados = 8'b10000001; #100;
+      dados = 8'b01010101; #100;
+      dados = 8'b00001111; #100;
+	end
+
+endmodule
